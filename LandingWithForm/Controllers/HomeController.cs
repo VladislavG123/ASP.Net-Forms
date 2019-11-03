@@ -29,7 +29,7 @@ namespace LandingWithForm.Controllers
                 mail.Body = body;
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("gvo_step2018@mail.ru", "8W8_55Vlad");
+                SmtpServer.Credentials = new System.Net.NetworkCredential("gvo_step2018@mail.ru", "password");
                 SmtpServer.EnableSsl = true;
 
                 SmtpServer.Send(mail);
